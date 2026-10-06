@@ -1,0 +1,473 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "AD5262BRUZ50"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 20.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AD5262BRUZ50"
+			(at 20.32 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RU_16_ADI"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5260_5262.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "AD5262BRUZ50"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RU_16_ADI RU_16_ADI-M RU_16_ADI-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "AD5262BRUZ50_0_1"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 7.62)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "W1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "SHDN*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -17.78 180)
+				(length 7.62)
+				(name "CS*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -15.24 180)
+				(length 7.62)
+				(name "PR*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -12.7 180)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -10.16 180)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -7.62 180)
+				(length 7.62)
+				(name "VL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "W2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD5262BRUZ50_1_1"
+			(rectangle
+				(start 7.62 3.81)
+				(end 33.02 -22.86)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "RU_16_ADI-L.kicad_mod")
+				(type other)
+				(data |KLUv/WBTJ60gAAYfXiAgkx78v4nO324Qe50w5n2K7gaaL6S0uZnGR6ICrApAGFgAVwBRAI/X99pu
+					dy236/y5mbKxYBrcXc5WxzmJPAxPfyIKr/HFyo9zgIrX3QVZmtQNCEyeu1WuTXdctrq73YvUk/To
+					/vF74zLc3Y7Ub4EoUKhTIo/Xecu6TeY4ixTapFXCJ7SltILusfqvkvoIKcIbJQ6NxCMhErzuLuZU
+					LEVfjmZ1pmk6jI3x3TJXhslST97eN5RhqfPGWaTG+boWy5W6IRktg0DFhN3MxWkbp2PHfoOBIhGZ
+					xuHWtMwiI51eTR6npKpZQapBH5w3UoM0bvP+En6VX1k7raWqrP7+FYyy1uqRfpXQZYwPqUnOjzA2
+					JmOZR+rpPVlfYtul/17l587KWOq7ZQGAwESndAL1Ht1WlVZTWspjnE+h/8tgi3EzthzYqcPJWiur
+					tLTm63aNaXA/f41Zm46NZZpKRurqLMLPSai2Viq9WkpOOq2kfjomyd1P+P1TErCBaqixlsyISJKS
+					glSWMVGpgCCilU3cQiAsBGVIAgQmQCACBkEwBIcIIQIrPEKNQAbbARONA2LratY4QvjGh1ZZ1J2J
+					094AmWGEwgKAT28EzRZL9xMUbUsuNDbZjU9IDWAak7X5zJjDLlRGOp8I3ivWB/UYhT1SjsnnsKiP
+					GjrqJ+t7ew8NzQuUncaoybQG52MfziZg7/V5Gq/OG44n1wjrzt6GBLULO/Y5KgfXcLeaUEYCQo/w
+					FWKgS7uoF5ss6oYAUiUEf+VggHlp4j9lq3db6Vr5J3oOv927KH+N9GkiWklf8n9K+v26YNflc2lQ
+					Nk/bZgaGJIRd07GvhoFqVGpcSTjmE+23TFCJx9YxCOvIMa9l+tEDAzVnRKriFB7MkrfhhpHwRRw1
+					z5DPsI8JS6lDPJRy2XQufmpY0tysdrTXpQ4UyF1k+lzcTfDQZiaazoukDhfSAESaL1YF0nRnXyr7
+					IsGTOlKtFI4X4CzLOTcVDbOLFKE/rDM7VHEg9SdBQN2MbuSuVQRzPM7wIhhH+z8wYlVpE2GN1XkW
+					iB/PmV5+PzNmIEkKXtQYIraH03ots6zw4Hzhe6BmzvnlF2FK/WmrcGmSVpVc+OKCJ4C+Hj+jo3sk
+					39TnWC4igaQIw7oPJ0LsBH1IMRvnLIkcJqXtQdEUKXH4GDo6upJOZDlLrVbBeEJOjG5MiqZRunmh
+					G0xK0QzkViNC1BjgLgI38Z5Bo/krEE9JNu2/z3RP4h+EEvUalzyCl+T/jtDaUvOOUMArEjYhDxdd
+					4k6IJYr1km+wzx/hAqIJRn+LlI0jEzuaHCgSwe5OUjk2W1eS9NOWFZB96sD4x+/5Vqnk6NYk9aYU
+					e+O09V1Z+gOu9VWH+afKBH5sP38AkLaKqKZgYBU=|
+				)
+				(checksum "C274E9FDB120DC3B15832E0213DB16E3")
+			)
+			(file
+				(name "RU_16_ADI-M.kicad_mod")
+				(type other)
+				(data |KLUv/WB/J8UgAHYfXyQgb/QM9odgzBoj3Y2ZTpSEYyByRAdCIaUkklsaLk6WEIIAmAdaAFgATwCO
+					xmMxdSZaKUQr3wp6IRX0SCzXextu76HhUeDQ3wHBYhvR3DUxYI7FlVo0ksIMELBQ0AnCqbhSt6l0
+					ohEKL9+t25vzREW20gmFF8IBAQQ2pOGx+E5RrS5FQUpWYTpF0oPxmTM8IZSspcf4zps5ZmU0DBQa
+					jwaGwOJK7QSicTCdSM3Esrxmja2lU8SJJK7CS3MzvYiswneiIIXtdSgEUYWZISJFDMyxPDTiUNI0
+					4caN18BAzDc4mTPME0mUZUmKoNdy6fbeTSefs2eLCnsrhS0kqvJnHt/lnG9OFz+2t0vWun3sbtDj
+					s/7WnLnlnzfWWOI+EYXCy1of/Z+JQveO77c2NwABC3zfjPNuPSWM8J/76bq155C1r4htEui1zYKV
+					/+ScDSNb5pwff0J5HVr5kVhevfhpKm78RBL5zTm1Yfw9ZkbInOV072ODjbn3or9+HG4NgWiooZrM
+					iEiSkoJUljFhrYAYgpVRdUIgIITGQAhCISwDETAIguAIQUSgCSNCQqhAyD0HNKBH4dCauABVvSFF
+					1OB1Z/Ykm5BZtTsgAJpttjS7LA2doDV2Y6F1VNTgc5Rj4mkzBX/oNsOk5+s1aNoLJUY3POIB5MNB
+					xI4qTtSaVH3cED3DTLek7O+0dvCRNQInYLE1zCSD1B3jvuHaA/vgG1PoO5qOeO7YwW/UiXbNHsdo
+					ez3EFmx8Y2SJLtttWeUuOYqy5gLklRPWWD6+66/bZtU1svrD7IZmpfinWk+rXjErNePcBHnvQOvZ
+					p5VfyNEGcGSa/TtwQBxSUOhXjWMehbtBfkZD6vWxyVsY/icz2wX0BxSdSUoVtaBb0U1CPl+v2sUa
+					QcWl89eAjccuS1FJl6Pq4g7iY0DzDikMYpe4QO1FrnHxQxNRROYVwmQUuzyogAyarIsEmKw4DXVk
+					/TLGjoq69HwVMhoJ56YjCjqRCMmBm92hBgFJeS0VE81GIHaUCJIjVJaHCohw6+VEFIE0XwSWjtyC
+					/cCc7fHfJmSBw1iwgG54IHAwBY0MrQj972N9m57lCxBZGdGhBahtQJsUzWq6Nr6JBB4mKIMtPtKg
+					7n2/EPn/NsVIiVP7hWAQfFFcEZKt5R1SaSJtRQIiBlENnRI65Kg1EywUKTVCQ/ECURWcEhqZrmaC
+					i4UkpYZQE7wGC4nFpscuCIzPQRsgfBVSE98s/fGDrkYi5mfavPpgDxaZROp7STu3gXYMRHQF0DrC
+					XFCT7DHssV0wjZ+4uiNGCDbJjM3kaT9Qsbubg41PsLVJWHk2K7kk+6cds4hG9F6mNVd8ywPl6N0k
+					NVOKjeNR77uOHlLX6qUOR6d6B37Mfv4AlzaoU03dwCo=|
+				)
+				(checksum "D92B89556E02A8CDF8486439D51E9245")
+			)
+			(file
+				(name "RU_16_ADI.kicad_mod")
+				(type other)
+				(data |KLUv/WB/J70gAEYfXyQQcfT8cIElo9ZoK2M2Ada88gELwEAkRTLZNC63zhERAYRFHAhaAFgATwAO
+					yFr5UHLKSM6tF7JCSCKIgu6s1VluDw2QAnfeDgjWUgmnrokBe6ydEsOZlF2AgMVCUhGPZGdVnSkp
+					KaHs8s3dzr5UJdEpK5RdCAcEEK4hGiBrKyVNSa2qSAkrKWlq7j1zZqNzkDX09755zBpmbTgMFBwQ
+					h4bA2inpJMJ5rJxMTsWytGa8lEoq8kgTVdmlt1dmSFTZSlWRsrQ+MoqksssQmSQG9lggGXmqiZos
+					L+8aGHgEkDRVdKdJip4ha1rDpbl9ExvYmP1iXNAqURZjqiT+zN+/5zDGFmPz/rW3Q8b/3mt2/p71
+					Mztrlm/OjHeiQpKFssta//whSjr3fu91OpUqAQABi2vfTOPNHeFzsH1smrm5Y+0rQp0EWamzQOG3
+					ds+WGOO/jw3rI+dCFHRXr4UcCS8kUcDn5pkO460x8TnmC2PT/jmGzc1bQw51vuPHnGECgWiosZbM
+					iEiSkoJUljFRqYAgopVN3EIgMISDUAKEJUAghKCCEB4iRkgFRBgRWBLI3HMTjQNiu2o2HIl840Or
+					LOrO5Gm3QWYdrbAAgJNboFnF0hkERdsCC41N5t8TOgNgxrQ2h5NyOAwVkGYmwouK4eA8RuGMxGHy
+					2SHeo4YS9cP6mG2IRDbPTdkfjTKmNTgfw3A2AYvXR9NSdbvhQEaNMO5M20RAu6zjnqNysA1zqwll
+					pHCK7z0hAwc25rb4xqKAoMSSg8uyG2BeaoxjufsRuM2qaXTxW9SG5q/xT2tPK91i/lsZfRBkxK7b
+					A/uAdBk5bYaHQ4/vcAe0V8H1G8UJGUUYqWyV/Um+QEIdQ6KTSVtWw8qEpVTJFeKgqqDhxqsLqQGF
+					VZpvzldxwQXySOyKzUuXT/NioQSSpmd+xXlZ7KjC2otK28W0jppON1t94jVihxiwA3iaLxYlIHRt
+					X3zkRwJO7IhawZwv2jlU8226KmkXPMJ/2GN3cCEkpbOBwNrMN6erWARzfMTyIgzBvQ4dMavapCBL
+					dX4LXB6f2l5qW0MmIIkKbtQMKb+F04JV5qvw4X2xd0rPnAOsX4ak9U21wtokmVXqVC+28UpQWMFH
+					QtA9IhXqc4iDB6lUVf2SLBChxLgiVoVyigzek5Y/r97eysON0xWQmxQrDGl8M5QakVyfE5O2aa7c
+					uFANk7IoA7nVSBA1hryIwFlUtlFp5Mq6A56l//cp3ZWoo8HEuuaXQ+ImUb9jabvUuCMX8AplmJCr
+					iy6xJ7QSyzrJN6XPHuECoYmi70W8iaMSO4Ic6BHB5k54OTabL0nK047liD51L96ae3YrUXJ0a5J6
+					U4r9ccr6riD9aa51qcOKU2W2H1vmH2CkrU+qqQFYBQ==|
+				)
+				(checksum "B29244620AD0CD92661E67EA32957B6A")
+			)
+		)
+	)
+)
